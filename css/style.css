@@ -1,0 +1,197 @@
+body
+    {
+        background-color: rgb(100, 17, 2);
+        margin: 10px;
+        padding: 10px;
+    }
+
+.menu a
+    {
+        color: rgb(94, 69, 1);
+        font-size:20pt;
+        padding-top: 0px;
+        margin: 20px;
+        font-family: Times New Roman;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 5px;
+        text-shadow: 2px 2px 2px rgb(253, 253, 253);
+    }
+
+.menu a:hover
+    {
+        font-size: 30pt;
+        font-family: Times New Roman;
+        color: rgb(255, 255, 255);
+        background-color: rgb(226, 42, 57);
+        transform: scale(1.05);
+        transition: all 0.2s ease-in-out;
+    }
+
+.menu
+    {
+        width: 100%;
+        height: 50em;
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        text-align: left;
+        margin: 0 auto;
+    }
+
+.aboutus 
+    {
+        display: grid;
+        grid-template-columns: auto 1fr;
+        align-items: center;
+        text-align: center;
+    }
+
+.READ-MORE-box 
+    {
+        background-color: #f5f5f5;
+        color: #fff;
+        padding: 10px;
+        border: none;
+        cursor: pointer;
+    }
+          
+.read-more-button:hover 
+    {
+       background-color: #fff;
+       color: #fffcfc;
+    }
+
+    
+.welcome
+    {
+        border: 1px solid rgb(0, 0, 0);
+
+    }
+
+
+.logo 
+    {
+        max-width: 600px;
+        justify-self: start;
+        border: 1px solid rgb(255, 255, 255);
+        box-shadow: 0 2px 5px rgb(0, 0, 0);
+    }
+    
+.product 
+    {
+        max-width: 350px;
+        justify-self: start;
+        border: 1px solid rgb(255, 255, 255);
+        box-shadow: 0 2px 5px rgb(255, 255, 255);
+    }
+
+.event
+    {
+        max-width: 500px;
+        border: 1px solid rgb(255, 253, 253);
+        box-shadow: 0 2px 5px rgb(255, 255, 255);
+        text-align: center;
+    }
+
+.event img 
+    {
+    max-width: 80%;
+    margin: 0 auto;
+    }
+
+h1 
+    {
+        color: rgb(236, 226, 226);
+        font-size: 12pt;
+        font-family: Times New Roman;
+        font-style: italic;
+        font-weight: 500;
+        text-align: justify;
+        padding-left: 20px;
+    }
+
+h2
+    {
+        color: rgb(166, 184, 3);
+        font-size: 12pt;
+        font-family: Times New Roman;
+        font-style: italic;
+        font-weight: 2000;
+        text-align: justify;
+        padding-left: 20px;
+    }
+
+h3
+    {
+        color: rgb(250, 246, 246);
+        font-size: 12pt;
+        font-family: Times New Roman;
+        font-style: italic;
+        font-weight: 500;
+        text-align: justify;
+        padding-left: 20px;
+    }
+
+h4
+    {
+        color: rgb(228, 228, 228);
+        font-size: 20pt;
+        font-family: Times New Roman;
+        font-weight: 2000;
+        text-align: center;
+        text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+    }
+
+div 
+    {
+        display: flex;
+        justify-content: center; /* Center the images and captions horizontally */
+        flex-wrap: wrap; /* Allow content to wrap if it exceeds the container's width */
+    }
+    
+figure 
+    {
+        margin: 10px; /* Add some margin around each figure for spacing */
+        display: flex; /* Apply flex properties to figure elements */
+        flex-direction: column; /* Stack image and caption vertically */
+        align-items: center; /* Center image and caption horizontally */
+    }
+    
+    .product {
+        max-width: 380px; /* Adjust the width of the images as needed */
+    }
+    
+    figcaption {
+        text-align: center; /* Center the captions below the images */
+        margin-top: 5px; /* Add some space between the image and the caption */
+    }
+
+    /* Other CSS styles for your website */
+/* ... */
+
+/* Reset some default styles for the body and footer */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Make the footer stick to the bottom of the page */
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
